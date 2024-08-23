@@ -1,0 +1,670 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3D13F8992C6CB71600AD08BF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D13F8982C6CB71600AD08BF /* AppDelegate.swift */; };
+		3D13F89B2C6CB71600AD08BF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D13F89A2C6CB71600AD08BF /* SceneDelegate.swift */; };
+		3D13F89D2C6CB71600AD08BF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D13F89C2C6CB71600AD08BF /* ViewController.swift */; };
+		3D13F8A02C6CB71600AD08BF /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 3D13F89F2C6CB71600AD08BF /* Base */; };
+		3D13F8A22C6CB71700AD08BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D13F8A12C6CB71700AD08BF /* Assets.xcassets */; };
+		3D13F8A52C6CB71700AD08BF /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 3D13F8A42C6CB71700AD08BF /* Base */; };
+		3D13F8B02C6CB71800AD08BF /* Numrology_SwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D13F8AF2C6CB71800AD08BF /* Numrology_SwiftTests.swift */; };
+		3D13F8BA2C6CB71800AD08BF /* Numrology_SwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D13F8B92C6CB71800AD08BF /* Numrology_SwiftUITests.swift */; };
+		3D13F8BC2C6CB71800AD08BF /* Numrology_SwiftUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D13F8BB2C6CB71800AD08BF /* Numrology_SwiftUITestsLaunchTests.swift */; };
+		3D13F8D42C6F195E00AD08BF /* AlphaTransitioning.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D13F8C82C6F195E00AD08BF /* AlphaTransitioning.swift */; };
+		3D13F8D52C6F195E00AD08BF /* SambagDatePickerResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D13F8C92C6F195E00AD08BF /* SambagDatePickerResult.swift */; };
+		3D13F8D62C6F195E00AD08BF /* SambagDatePickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D13F8CA2C6F195E00AD08BF /* SambagDatePickerViewController.swift */; };
+		3D13F8D72C6F195E00AD08BF /* SambagMonthYearPickerResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D13F8CB2C6F195E00AD08BF /* SambagMonthYearPickerResult.swift */; };
+		3D13F8D82C6F195E00AD08BF /* SambagMonthYearPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D13F8CC2C6F195E00AD08BF /* SambagMonthYearPickerViewController.swift */; };
+		3D13F8D92C6F195E00AD08BF /* SambagSelectionLimit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D13F8CD2C6F195E00AD08BF /* SambagSelectionLimit.swift */; };
+		3D13F8DA2C6F195E00AD08BF /* SambagTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D13F8CE2C6F195E00AD08BF /* SambagTheme.swift */; };
+		3D13F8DB2C6F195E00AD08BF /* SambagTimePickerResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D13F8CF2C6F195E00AD08BF /* SambagTimePickerResult.swift */; };
+		3D13F8DC2C6F195E00AD08BF /* SambagTimePickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D13F8D02C6F195E00AD08BF /* SambagTimePickerViewController.swift */; };
+		3D13F8DD2C6F195E00AD08BF /* TimeMeridian.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D13F8D12C6F195E00AD08BF /* TimeMeridian.swift */; };
+		3D13F8DE2C6F195E00AD08BF /* WheelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D13F8D22C6F195E00AD08BF /* WheelViewController.swift */; };
+		3DA5BE782C76F810004F383F /* DatePickerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DA5BE772C76F810004F383F /* DatePickerVC.swift */; };
+		3DA5BE7A2C770173004F383F /* DatePickerDialogeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DA5BE792C770173004F383F /* DatePickerDialogeVC.swift */; };
+		3DC4850E2C705FEF009FB099 /* dataCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC4850D2C705FEF009FB099 /* dataCollectionCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3D13F8AC2C6CB71800AD08BF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3D13F88D2C6CB71500AD08BF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3D13F8942C6CB71600AD08BF;
+			remoteInfo = Numrology_Swift;
+		};
+		3D13F8B62C6CB71800AD08BF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3D13F88D2C6CB71500AD08BF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3D13F8942C6CB71600AD08BF;
+			remoteInfo = Numrology_Swift;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3D13F8952C6CB71600AD08BF /* Numrology_Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Numrology_Swift.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D13F8982C6CB71600AD08BF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3D13F89A2C6CB71600AD08BF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		3D13F89C2C6CB71600AD08BF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3D13F89F2C6CB71600AD08BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3D13F8A12C6CB71700AD08BF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3D13F8A42C6CB71700AD08BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3D13F8A62C6CB71700AD08BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D13F8AB2C6CB71800AD08BF /* Numrology_SwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Numrology_SwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D13F8AF2C6CB71800AD08BF /* Numrology_SwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Numrology_SwiftTests.swift; sourceTree = "<group>"; };
+		3D13F8B52C6CB71800AD08BF /* Numrology_SwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Numrology_SwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D13F8B92C6CB71800AD08BF /* Numrology_SwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Numrology_SwiftUITests.swift; sourceTree = "<group>"; };
+		3D13F8BB2C6CB71800AD08BF /* Numrology_SwiftUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Numrology_SwiftUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		3D13F8C82C6F195E00AD08BF /* AlphaTransitioning.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlphaTransitioning.swift; sourceTree = "<group>"; };
+		3D13F8C92C6F195E00AD08BF /* SambagDatePickerResult.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SambagDatePickerResult.swift; sourceTree = "<group>"; };
+		3D13F8CA2C6F195E00AD08BF /* SambagDatePickerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SambagDatePickerViewController.swift; sourceTree = "<group>"; };
+		3D13F8CB2C6F195E00AD08BF /* SambagMonthYearPickerResult.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SambagMonthYearPickerResult.swift; sourceTree = "<group>"; };
+		3D13F8CC2C6F195E00AD08BF /* SambagMonthYearPickerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SambagMonthYearPickerViewController.swift; sourceTree = "<group>"; };
+		3D13F8CD2C6F195E00AD08BF /* SambagSelectionLimit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SambagSelectionLimit.swift; sourceTree = "<group>"; };
+		3D13F8CE2C6F195E00AD08BF /* SambagTheme.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SambagTheme.swift; sourceTree = "<group>"; };
+		3D13F8CF2C6F195E00AD08BF /* SambagTimePickerResult.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SambagTimePickerResult.swift; sourceTree = "<group>"; };
+		3D13F8D02C6F195E00AD08BF /* SambagTimePickerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SambagTimePickerViewController.swift; sourceTree = "<group>"; };
+		3D13F8D12C6F195E00AD08BF /* TimeMeridian.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimeMeridian.swift; sourceTree = "<group>"; };
+		3D13F8D22C6F195E00AD08BF /* WheelViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WheelViewController.swift; sourceTree = "<group>"; };
+		3DA5BE772C76F810004F383F /* DatePickerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePickerVC.swift; sourceTree = "<group>"; };
+		3DA5BE792C770173004F383F /* DatePickerDialogeVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DatePickerDialogeVC.swift; sourceTree = "<group>"; };
+		3DC4850D2C705FEF009FB099 /* dataCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dataCollectionCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3D13F8922C6CB71600AD08BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D13F8A82C6CB71800AD08BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D13F8B22C6CB71800AD08BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3D13F88C2C6CB71500AD08BF = {
+			isa = PBXGroup;
+			children = (
+				3D13F8972C6CB71600AD08BF /* Numrology_Swift */,
+				3D13F8AE2C6CB71800AD08BF /* Numrology_SwiftTests */,
+				3D13F8B82C6CB71800AD08BF /* Numrology_SwiftUITests */,
+				3D13F8962C6CB71600AD08BF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3D13F8962C6CB71600AD08BF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3D13F8952C6CB71600AD08BF /* Numrology_Swift.app */,
+				3D13F8AB2C6CB71800AD08BF /* Numrology_SwiftTests.xctest */,
+				3D13F8B52C6CB71800AD08BF /* Numrology_SwiftUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3D13F8972C6CB71600AD08BF /* Numrology_Swift */ = {
+			isa = PBXGroup;
+			children = (
+				3D13F8D32C6F195E00AD08BF /* Source */,
+				3D13F8982C6CB71600AD08BF /* AppDelegate.swift */,
+				3D13F89A2C6CB71600AD08BF /* SceneDelegate.swift */,
+				3D13F89C2C6CB71600AD08BF /* ViewController.swift */,
+				3DA5BE792C770173004F383F /* DatePickerDialogeVC.swift */,
+				3DA5BE772C76F810004F383F /* DatePickerVC.swift */,
+				3DC4850D2C705FEF009FB099 /* dataCollectionCell.swift */,
+				3D13F89E2C6CB71600AD08BF /* Main.storyboard */,
+				3D13F8A12C6CB71700AD08BF /* Assets.xcassets */,
+				3D13F8A32C6CB71700AD08BF /* LaunchScreen.storyboard */,
+				3D13F8A62C6CB71700AD08BF /* Info.plist */,
+			);
+			path = Numrology_Swift;
+			sourceTree = "<group>";
+		};
+		3D13F8AE2C6CB71800AD08BF /* Numrology_SwiftTests */ = {
+			isa = PBXGroup;
+			children = (
+				3D13F8AF2C6CB71800AD08BF /* Numrology_SwiftTests.swift */,
+			);
+			path = Numrology_SwiftTests;
+			sourceTree = "<group>";
+		};
+		3D13F8B82C6CB71800AD08BF /* Numrology_SwiftUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3D13F8B92C6CB71800AD08BF /* Numrology_SwiftUITests.swift */,
+				3D13F8BB2C6CB71800AD08BF /* Numrology_SwiftUITestsLaunchTests.swift */,
+			);
+			path = Numrology_SwiftUITests;
+			sourceTree = "<group>";
+		};
+		3D13F8D32C6F195E00AD08BF /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				3D13F8C82C6F195E00AD08BF /* AlphaTransitioning.swift */,
+				3D13F8C92C6F195E00AD08BF /* SambagDatePickerResult.swift */,
+				3D13F8CA2C6F195E00AD08BF /* SambagDatePickerViewController.swift */,
+				3D13F8CB2C6F195E00AD08BF /* SambagMonthYearPickerResult.swift */,
+				3D13F8CC2C6F195E00AD08BF /* SambagMonthYearPickerViewController.swift */,
+				3D13F8CD2C6F195E00AD08BF /* SambagSelectionLimit.swift */,
+				3D13F8CE2C6F195E00AD08BF /* SambagTheme.swift */,
+				3D13F8CF2C6F195E00AD08BF /* SambagTimePickerResult.swift */,
+				3D13F8D02C6F195E00AD08BF /* SambagTimePickerViewController.swift */,
+				3D13F8D12C6F195E00AD08BF /* TimeMeridian.swift */,
+				3D13F8D22C6F195E00AD08BF /* WheelViewController.swift */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3D13F8942C6CB71600AD08BF /* Numrology_Swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D13F8BF2C6CB71800AD08BF /* Build configuration list for PBXNativeTarget "Numrology_Swift" */;
+			buildPhases = (
+				3D13F8912C6CB71600AD08BF /* Sources */,
+				3D13F8922C6CB71600AD08BF /* Frameworks */,
+				3D13F8932C6CB71600AD08BF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Numrology_Swift;
+			productName = Numrology_Swift;
+			productReference = 3D13F8952C6CB71600AD08BF /* Numrology_Swift.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3D13F8AA2C6CB71800AD08BF /* Numrology_SwiftTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D13F8C22C6CB71800AD08BF /* Build configuration list for PBXNativeTarget "Numrology_SwiftTests" */;
+			buildPhases = (
+				3D13F8A72C6CB71800AD08BF /* Sources */,
+				3D13F8A82C6CB71800AD08BF /* Frameworks */,
+				3D13F8A92C6CB71800AD08BF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3D13F8AD2C6CB71800AD08BF /* PBXTargetDependency */,
+			);
+			name = Numrology_SwiftTests;
+			productName = Numrology_SwiftTests;
+			productReference = 3D13F8AB2C6CB71800AD08BF /* Numrology_SwiftTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3D13F8B42C6CB71800AD08BF /* Numrology_SwiftUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D13F8C52C6CB71800AD08BF /* Build configuration list for PBXNativeTarget "Numrology_SwiftUITests" */;
+			buildPhases = (
+				3D13F8B12C6CB71800AD08BF /* Sources */,
+				3D13F8B22C6CB71800AD08BF /* Frameworks */,
+				3D13F8B32C6CB71800AD08BF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3D13F8B72C6CB71800AD08BF /* PBXTargetDependency */,
+			);
+			name = Numrology_SwiftUITests;
+			productName = Numrology_SwiftUITests;
+			productReference = 3D13F8B52C6CB71800AD08BF /* Numrology_SwiftUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3D13F88D2C6CB71500AD08BF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					3D13F8942C6CB71600AD08BF = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					3D13F8AA2C6CB71800AD08BF = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 3D13F8942C6CB71600AD08BF;
+					};
+					3D13F8B42C6CB71800AD08BF = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 3D13F8942C6CB71600AD08BF;
+					};
+				};
+			};
+			buildConfigurationList = 3D13F8902C6CB71500AD08BF /* Build configuration list for PBXProject "Numrology_Swift" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3D13F88C2C6CB71500AD08BF;
+			productRefGroup = 3D13F8962C6CB71600AD08BF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3D13F8942C6CB71600AD08BF /* Numrology_Swift */,
+				3D13F8AA2C6CB71800AD08BF /* Numrology_SwiftTests */,
+				3D13F8B42C6CB71800AD08BF /* Numrology_SwiftUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3D13F8932C6CB71600AD08BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D13F8A22C6CB71700AD08BF /* Assets.xcassets in Resources */,
+				3D13F8A52C6CB71700AD08BF /* Base in Resources */,
+				3D13F8A02C6CB71600AD08BF /* Base in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D13F8A92C6CB71800AD08BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D13F8B32C6CB71800AD08BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3D13F8912C6CB71600AD08BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D13F8D72C6F195E00AD08BF /* SambagMonthYearPickerResult.swift in Sources */,
+				3D13F8D52C6F195E00AD08BF /* SambagDatePickerResult.swift in Sources */,
+				3DA5BE782C76F810004F383F /* DatePickerVC.swift in Sources */,
+				3D13F89D2C6CB71600AD08BF /* ViewController.swift in Sources */,
+				3D13F8D92C6F195E00AD08BF /* SambagSelectionLimit.swift in Sources */,
+				3D13F8D82C6F195E00AD08BF /* SambagMonthYearPickerViewController.swift in Sources */,
+				3D13F8992C6CB71600AD08BF /* AppDelegate.swift in Sources */,
+				3DA5BE7A2C770173004F383F /* DatePickerDialogeVC.swift in Sources */,
+				3D13F8DC2C6F195E00AD08BF /* SambagTimePickerViewController.swift in Sources */,
+				3D13F8D62C6F195E00AD08BF /* SambagDatePickerViewController.swift in Sources */,
+				3D13F8D42C6F195E00AD08BF /* AlphaTransitioning.swift in Sources */,
+				3DC4850E2C705FEF009FB099 /* dataCollectionCell.swift in Sources */,
+				3D13F8DD2C6F195E00AD08BF /* TimeMeridian.swift in Sources */,
+				3D13F8DA2C6F195E00AD08BF /* SambagTheme.swift in Sources */,
+				3D13F89B2C6CB71600AD08BF /* SceneDelegate.swift in Sources */,
+				3D13F8DE2C6F195E00AD08BF /* WheelViewController.swift in Sources */,
+				3D13F8DB2C6F195E00AD08BF /* SambagTimePickerResult.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D13F8A72C6CB71800AD08BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D13F8B02C6CB71800AD08BF /* Numrology_SwiftTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D13F8B12C6CB71800AD08BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D13F8BA2C6CB71800AD08BF /* Numrology_SwiftUITests.swift in Sources */,
+				3D13F8BC2C6CB71800AD08BF /* Numrology_SwiftUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3D13F8AD2C6CB71800AD08BF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3D13F8942C6CB71600AD08BF /* Numrology_Swift */;
+			targetProxy = 3D13F8AC2C6CB71800AD08BF /* PBXContainerItemProxy */;
+		};
+		3D13F8B72C6CB71800AD08BF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3D13F8942C6CB71600AD08BF /* Numrology_Swift */;
+			targetProxy = 3D13F8B62C6CB71800AD08BF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3D13F89E2C6CB71600AD08BF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3D13F89F2C6CB71600AD08BF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3D13F8A32C6CB71700AD08BF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3D13F8A42C6CB71700AD08BF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3D13F8BD2C6CB71800AD08BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3D13F8BE2C6CB71800AD08BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3D13F8C02C6CB71800AD08BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Numrology_Swift/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.singsoft.Numrology-Swift";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3D13F8C12C6CB71800AD08BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Numrology_Swift/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.singsoft.Numrology-Swift";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3D13F8C32C6CB71800AD08BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.singsoft.Numrology-SwiftTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Numrology_Swift.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Numrology_Swift";
+			};
+			name = Debug;
+		};
+		3D13F8C42C6CB71800AD08BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.singsoft.Numrology-SwiftTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Numrology_Swift.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Numrology_Swift";
+			};
+			name = Release;
+		};
+		3D13F8C62C6CB71800AD08BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.singsoft.Numrology-SwiftUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Numrology_Swift;
+			};
+			name = Debug;
+		};
+		3D13F8C72C6CB71800AD08BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.singsoft.Numrology-SwiftUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Numrology_Swift;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3D13F8902C6CB71500AD08BF /* Build configuration list for PBXProject "Numrology_Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D13F8BD2C6CB71800AD08BF /* Debug */,
+				3D13F8BE2C6CB71800AD08BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3D13F8BF2C6CB71800AD08BF /* Build configuration list for PBXNativeTarget "Numrology_Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D13F8C02C6CB71800AD08BF /* Debug */,
+				3D13F8C12C6CB71800AD08BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3D13F8C22C6CB71800AD08BF /* Build configuration list for PBXNativeTarget "Numrology_SwiftTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D13F8C32C6CB71800AD08BF /* Debug */,
+				3D13F8C42C6CB71800AD08BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3D13F8C52C6CB71800AD08BF /* Build configuration list for PBXNativeTarget "Numrology_SwiftUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D13F8C62C6CB71800AD08BF /* Debug */,
+				3D13F8C72C6CB71800AD08BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3D13F88D2C6CB71500AD08BF /* Project object */;
+}
